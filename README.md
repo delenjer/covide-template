@@ -4,4 +4,4 @@ Install dependencies - npm i;
 
 Start project - npm start;
 
-#Demo link - 
+#Demo link - https://delenjer.github.io/covide-template/

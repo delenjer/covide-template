@@ -20,7 +20,7 @@ export const CountryStatisticChart = () => {
     <div className="chart-container">
       {
         !countryStatistic.length ? (
-          <p>Please get data!!!</p>
+          <p className="alert-text">Please set country!!!</p>
         ) : (
           <ResponsiveContainer width="90%" aspect={4}>
             <BarChart

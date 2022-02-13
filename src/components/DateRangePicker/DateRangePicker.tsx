@@ -25,7 +25,7 @@ export const BasicDateRangePicker = () => {
   }, [dispatch, value]);
 
   const handleChange = (val: any) => {
-    navigate(`${formatDate(val)}`);
+    navigate(`?from=${formatDate(value)[0]}&to=${formatDate(value)[1]}`);
 
     setValue(val);
     saveStorage(val);

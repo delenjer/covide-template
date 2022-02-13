@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from "react-redux";
+import { useNavigate } from 'react-router-dom';
 
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
@@ -9,12 +10,15 @@ import { loadingCountryStatistic } from "../../../store/thunk/thunk";
 export const CountriesAutocomplete: React.FC<ICountries> = ({ countries }) => {
   const [value, setValue] = useState<string | null>('');
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   useEffect(() => {
     dispatch(loadingCountryStatistic(value));
   }, [value]);
 
   const handleChange = (val: string | null ) => {
+    navigate(`/${val}`);
+
     return countries.filter(country => country.Country === val ? setValue(country.Slug) : '');
   }
 

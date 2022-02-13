@@ -16,7 +16,7 @@ export const GlobalStatistics = ({ data }: any) => {
     <div className="chart-container">
       {
         !data.length ? (
-          <p>Please get data!!!</p>
+          <p className="alert-text">Please set date!!!</p>
         ) : (
           <ResponsiveContainer width="90%" aspect={4}>
             <BarChart
