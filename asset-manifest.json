@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/covide-template/static/css/main.8d65f317.css",
-    "main.js": "/covide-template/static/js/main.eb15a3c3.js",
+    "main.js": "/covide-template/static/js/main.03c46a9b.js",
     "static/js/787.635636ff.chunk.js": "/covide-template/static/js/787.635636ff.chunk.js",
     "index.html": "/covide-template/index.html",
     "main.8d65f317.css.map": "/covide-template/static/css/main.8d65f317.css.map",
-    "main.eb15a3c3.js.map": "/covide-template/static/js/main.eb15a3c3.js.map",
+    "main.03c46a9b.js.map": "/covide-template/static/js/main.03c46a9b.js.map",
     "787.635636ff.chunk.js.map": "/covide-template/static/js/787.635636ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8d65f317.css",
-    "static/js/main.eb15a3c3.js"
+    "static/js/main.03c46a9b.js"
   ]
 }
