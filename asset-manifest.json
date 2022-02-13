@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/covide-template/static/css/main.429b45ee.css",
+    "main.js": "/covide-template/static/js/main.62a5bc32.js",
+    "static/js/787.635636ff.chunk.js": "/covide-template/static/js/787.635636ff.chunk.js",
+    "index.html": "/covide-template/index.html",
+    "main.429b45ee.css.map": "/covide-template/static/css/main.429b45ee.css.map",
+    "main.62a5bc32.js.map": "/covide-template/static/js/main.62a5bc32.js.map",
+    "787.635636ff.chunk.js.map": "/covide-template/static/js/787.635636ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.429b45ee.css",
+    "static/js/main.62a5bc32.js"
+  ]
+}
