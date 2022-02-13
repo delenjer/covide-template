@@ -16,8 +16,6 @@ import {
 export const CountryStatisticChart = () => {
   const countryStatistic = useSelector(state => selectors.countryStatistic(state));
 
-  console.log(countryStatistic);
-
   return (
     <div className="chart-container">
       {

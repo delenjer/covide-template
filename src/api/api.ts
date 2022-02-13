@@ -1,5 +1,3 @@
-//https://api.covid19api.com/live/country/Ukraine/status/confirmed' 2021-12-19T23:31:37.226Z
-
 const BASE_URL = 'https://api.covid19api.com/';
 
 export const getWorldWip = (formatDate:string[]) => {
