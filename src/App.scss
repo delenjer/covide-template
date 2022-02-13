@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.nav-link {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+
+  &.active {
+    color: #666;
+  }
+}
+
+.container {
+  margin: 20px 0 0;
+}
+
+.chart-container {
+  margin: 60px 0 0;
+}
+
+.title {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.top-indent {
+  margin-top: 30px;
+}
