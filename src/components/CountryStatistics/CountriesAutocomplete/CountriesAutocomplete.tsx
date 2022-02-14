@@ -11,7 +11,9 @@ export const CountriesAutocomplete: React.FC<ICountries> = ({ countries }) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(loadingCountryStatistic(value));
+    if(value) {
+      dispatch(loadingCountryStatistic(value));
+    }
   }, [value, dispatch]);
 
   const handleChange = (val: string | null ) => {

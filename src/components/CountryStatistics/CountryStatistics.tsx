@@ -18,7 +18,7 @@ export const CountryStatistics = () => {
     if(!isCache || !countries.length) {
       dispatch(loadingCountries());
     }
-  }, [dispatch]);
+  }, []);
 
   return (
     <>
