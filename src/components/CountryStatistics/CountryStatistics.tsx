@@ -15,12 +15,10 @@ export const CountryStatistics = () => {
   const isCache = loadState();
 
   useEffect(() => {
-    if(isCache && isCache.countries) {
-      return;
-    } else {
+    if(!isCache || !countries.length) {
       dispatch(loadingCountries());
     }
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
