@@ -39,7 +39,8 @@ export const CountryStatisticChart = () => {
               <YAxis />
               <Tooltip />
               <Legend />
-              <Bar dataKey="Cases" fill="#8884d8" />
+              <Bar dataKey="Active" fill="#8884d8" />
+              <Bar dataKey="Recovered" fill="#fb9121" />
             </BarChart>
           </ResponsiveContainer>
         )

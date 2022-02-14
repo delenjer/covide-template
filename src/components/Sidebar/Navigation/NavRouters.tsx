@@ -10,7 +10,7 @@ export const NavRouters = () => {
   return (
     <Routes>
       <Route path="/*" element={<Home />} />
-      <Route path="statistics-by-country/*" element={<CountryStatistics />} />
+      <Route path="statistics-by-country/" element={<CountryStatistics />} />
       <Route path="about/" element={<About />} />
     </Routes>
   );

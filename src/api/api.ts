@@ -13,7 +13,7 @@ export const getCountriesList = () => {
 }
 
 export const getCountryStatistic = (region: string | null) => {
-  return fetch(`${BASE_URL}country/${region}/status/confirmed/live?from=2022-02-02T00:00:00Z&to=2022-02-05T00:00:00Z`)
+  return fetch(`${BASE_URL}country/${region}`)
     .then(response => response.json())
     .then(data => data);
 }

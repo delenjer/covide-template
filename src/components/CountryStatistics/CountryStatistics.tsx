@@ -20,7 +20,7 @@ export const CountryStatistics = () => {
     } else {
       dispatch(loadingCountries());
     }
-  }, [dispatch]);
+  }, []);
 
   return (
     <>
